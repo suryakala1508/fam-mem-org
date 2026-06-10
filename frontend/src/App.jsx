@@ -12,8 +12,8 @@ const NAV = [
   { id: "members",   label: "Family",   icon: "👨‍👩‍👧‍👦" },
 ];
 
-const API = "http://localhost:5000/api";
-const API_BASE = "http://localhost:5000";
+const API = "https://fam-mem-org.onrender.com/api";
+const API_BASE = "https://fam-mem-org.onrender.com";
 
 export default function App() {
   const [page, setPage]         = useState("dashboard");
