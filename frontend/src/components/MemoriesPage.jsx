@@ -1,6 +1,6 @@
 import { useState, useRef } from "react";
 
-const API_BASE = "http://localhost:5000";
+const API_BASE = "https://fam-mem-org.onrender.com";
 
 export default function MemoriesPage({ memories, members, tags, refresh, API }) {
   const [search, setSearch]         = useState("");
