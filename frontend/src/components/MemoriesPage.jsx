@@ -331,8 +331,8 @@ function MemoryDetailModal({ memory, members, onClose, onEdit, onDelete }) {
         <div className="modal-body">
           {memory.file_url && (
             memory.file_type === "video"
-              ? <video className="detail-media" src={`http://localhost:5000${memory.file_url}`} controls />
-              : <img className="detail-media" src={`http://localhost:5000${memory.file_url}`} alt={memory.title} />
+              ? <video className="detail-media" src={`https://fam-mem-org.onrender.com${memory.file_url}`} controls />
+              : <img className="detail-media" src={`https://fam-mem-org.onrender.com${memory.file_url}`} alt={memory.title} />
           )}
 
           <div className="detail-meta">
