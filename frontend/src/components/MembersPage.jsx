@@ -1,6 +1,7 @@
 import { useState, useRef } from "react";
 
-const API_BASE = "http://localhost:5000";
+
+const API_BASE = "https://fam-mem-org.onrender.com";
 
 export default function MembersPage({ members, refresh, API }) {
   const [showForm, setShowForm] = useState(false);
