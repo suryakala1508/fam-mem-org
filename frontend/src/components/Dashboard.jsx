@@ -1,4 +1,4 @@
-const API_BASE = "http://localhost:5000";
+const API_BASE = "https://fam-mem-org.onrender.com";
 
 export default function Dashboard({ stats, memories, members, onNavigate }) {
   const recent = memories.slice(0, 6);
